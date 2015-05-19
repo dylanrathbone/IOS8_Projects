@@ -13,6 +13,7 @@
 		9F0A70181B0BC40900F7246F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F0A70171B0BC40900F7246F /* Images.xcassets */; };
 		9F0A701B1B0BC40900F7246F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F0A70191B0BC40900F7246F /* LaunchScreen.xib */; };
 		9F0A70271B0BC40900F7246F /* CatYearsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0A70261B0BC40900F7246F /* CatYearsTests.swift */; };
+		9F0A70311B0BC60C00F7246F /* cat.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F0A70301B0BC60C00F7246F /* cat.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		9F0A70201B0BC40900F7246F /* CatYearsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatYearsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F0A70251B0BC40900F7246F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F0A70261B0BC40900F7246F /* CatYearsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatYearsTests.swift; sourceTree = "<group>"; };
+		9F0A70301B0BC60C00F7246F /* cat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cat.png; path = ../../../Pictures/cat.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				9F0A70101B0BC40900F7246F /* AppDelegate.swift */,
 				9F0A70121B0BC40900F7246F /* ViewController.swift */,
 				9F0A70141B0BC40900F7246F /* Main.storyboard */,
+				9F0A70301B0BC60C00F7246F /* cat.png */,
 				9F0A70171B0BC40900F7246F /* Images.xcassets */,
 				9F0A70191B0BC40900F7246F /* LaunchScreen.xib */,
 				9F0A700E1B0BC40900F7246F /* Supporting Files */,
@@ -194,6 +197,7 @@
 			files = (
 				9F0A70161B0BC40900F7246F /* Main.storyboard in Resources */,
 				9F0A701B1B0BC40900F7246F /* LaunchScreen.xib in Resources */,
+				9F0A70311B0BC60C00F7246F /* cat.png in Resources */,
 				9F0A70181B0BC40900F7246F /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
