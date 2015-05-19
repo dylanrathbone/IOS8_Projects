@@ -10,22 +10,20 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var mainLable: UILabel!
-    @IBOutlet weak var mainButton: UITextField!
+    @IBOutlet weak var mainLabel: UILabel!
+    
+    @IBAction func mainButton(sender: AnyObject) {
+        
+        mainLabel.text = "Label text changed!"
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-        
-        mainLable.text = "Label text changed!"
-        mainButton.placeholder = "bla bla bla!"
-        
-        println("Hi there its Dylan's first app!")
+        println("Dylan's first app initialized!")
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
 
 

@@ -35,7 +35,7 @@
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1ja-In-58g">
-                                <rect key="frame" x="95" y="79" width="118" height="21"/>
+                                <rect key="frame" x="95" y="79" width="203" height="21"/>
                                 <attributedString key="attributedText">
                                     <fragment content="This is my label">
                                         <attributes>
@@ -53,10 +53,11 @@
                                 <textInputTraits key="textInputTraits" spellCheckingType="yes" keyboardType="numberPad"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vWP-89-UyS">
-                                <rect key="frame" x="131" y="34" width="54" height="31"/>
-                                <state key="normal" title="Tap me!">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
+                                <rect key="frame" x="106" y="33" width="94" height="30"/>
+                                <state key="normal" title="button"/>
+                                <connections>
+                                    <action selector="mainButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Byp-9k-yAV"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z7K-AH-h40">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -89,8 +90,7 @@
                         </variation>
                     </view>
                     <connections>
-                        <outlet property="mainButton" destination="KSt-Ox-lX8" id="dAy-vd-M13"/>
-                        <outlet property="mainLable" destination="1ja-In-58g" id="jaB-UB-FhW"/>
+                        <outlet property="mainLabel" destination="1ja-In-58g" id="qPB-ja-Eoa"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
