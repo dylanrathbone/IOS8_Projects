@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>439824EC-CA09-4D3A-B8FD-54F63509A348</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CatYears</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C53206B8D7D0AC1B0D2B5AEB4BB144C7F6829122</key>
+		<string>https://github.com/dylanrathbone/IOS8_Projects.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CatYears/CatYears.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C53206B8D7D0AC1B0D2B5AEB4BB144C7F6829122</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/dylanrathbone/IOS8_Projects.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C53206B8D7D0AC1B0D2B5AEB4BB144C7F6829122</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C53206B8D7D0AC1B0D2B5AEB4BB144C7F6829122</string>
+			<key>IDESourceControlWCCName</key>
+			<string>IOS8_Projects</string>
+		</dict>
+	</array>
+</dict>
+</plist>
